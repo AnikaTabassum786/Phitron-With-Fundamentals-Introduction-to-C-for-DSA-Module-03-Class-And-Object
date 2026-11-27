@@ -25,6 +25,7 @@ int main()
 {
     
   Student* p = fun();
+  //(*p.roll)     (*p.cls)     (*p.cgpa)
   cout << p->roll << p->cls << p->cgpa << endl;
     return 0;
 }
